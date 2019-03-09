@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ashot Martirosyan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <section id="home">
+      <img class="home-img blur" src="./bg.jpeg" alt="Home Image" />
+      <article class="center">
+        <span class="text-focus-in name">I'M ASHOT MARTIROSYAN</span><br />
+      </article>
+    </section>
+    <div class="container">
+      <section id="about">
+        <div class="heading"><h1>Short About Me</h1></div>
+        <div class="content">
+          <div class="profil">
+            <img src="./prof.jpg" alt="" />
+          </div>
+          <div class="about">
+            <p>
+              Hi, My name is Ashot, i'm a student at the department of software
+              engineering of National Polytechnic University of Armenia.
+              <br /><br />
+              I'm junior web developer. <br />
+              <br />
+              I believe that I am a quick learner, and I don’t give up easily
+              when faced with difficult challenges. I like to think of myself as
+              a cool-headed person who can keep his wits about him under
+              pressure.
+            </p>
+          </article>
+        </div>
+      </section>
+      <div class="clear"></div>
+
+      <section id="education">
+          <div class="heading"><h1>My Education</h1></div>
+          <div class="content">
+              <p>
+                <strong>University: </strong> National Polytechnic University of Armenia. <br>
+                <strong>Department: </strong> Software Engineering. <br>
+                <strong>Degree: </strong>Bachelor. <br>
+                <strong>Year: </strong> Since Sept 2017.
+              </p></div>
+      </section>
+
+      <section id="skills">
+          <div class="heading"><h1>My Skills</h1></div>
+            <div class="content">
+              <p>HTML</p>
+              <div class="meter">
+                  <span style="width: 75%; text-align: right">75%</span>
+                </div>
+                <p>CSS</p>
+              <div class="meter">
+                  <span style="width: 75%; text-align: right">75%</span>
+                </div>
+                <p>JavaScript</p>
+              <div class="meter">
+                  <span style="width: 80%; text-align: right">80%</span>
+                </div>
+                <p>Bootstrap</p>
+              <div class="meter">
+                  <span style="width: 60%; text-align: right">60%</span>
+                </div>
+                <p>Git</p>
+              <div class="meter">
+                  <span style="width: 50%; text-align: right">50%</span>
+                </div>
+                <p>RWD</p>
+              <div class="meter">
+                  <span style="width: 60%; text-align: right">60%</span>
+                </div>
+        </div>
+          
+      </section>
+
+      <section id="contact">
+          <div class="heading"><h1>Contact Form</h1></div>
+
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          
+      </section>
+    </div>
+    <footer style="background: #333; color: #fff; padding: 10px;">All Right Reserved.</footer>
+
+  </body>
+</html>
