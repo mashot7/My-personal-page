@@ -47,6 +47,18 @@ body {
   border-radius: 30px;
 }
 
+@media only screen and (max-width: 762px) {
+  .user-box h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .user-box p {
+    color: #fff;
+  }
+}
 .scroll-bar span {
   border: 2px solid #fff;
   font-size: 10px;
@@ -75,6 +87,18 @@ body {
   height: 400px;
 }
 
+@media only screen and (max-width: 992px) {
+  .profile-img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 762px) {
+  .col-md-6 h3 {
+    margin-top: 15px;
+  }
+}
 .nav-bar {
   top: 0;
   position: sticky;
